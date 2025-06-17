@@ -1,0 +1,128 @@
+/* TIPOGRAFIA  
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; 
+
+CORES
+VERDE ESCURO: #065902
+VERDE MAIS CLARO: #078C31 
+AMARELO: #F2B705 
+VERMELHO MAIS CLARO: #F03733 
+VERMELHO ESCURO: #D90404
+
+CINZA ESCURO: #404040
+CINZA BEM CLARO: #F7F7F7 */
+
+* {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredericka the Great", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d90404;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #f2b705;
+}
+
+h1 {
+  font-size: 600%;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 400%;
+  font-weight: 200;
+}
+
+h2::after{
+  display: block;
+  background-color: #078c31;
+  height: 5px;
+  width: 100px;
+  margin: 40px auto 30px;
+  content: "";
+}
+
+h4{
+  font-size: 150%;
+  font-weight: 150;
+  padding: 20px 0 0;
+}
+
+p,
+li,
+a {
+  font-family: "Open Sans", sans-serif;
+  color:#404040
+}
+
+p.destaque{
+  font: size 130%;
+  line-height: 1.8;
+  font-weight: 300;
+
+  text-align: center;
+  width: 60%;
+
+}
+
+/* ---------------------- */
+/* Elementos do Header */
+/* ---------------------- */
+
+header div#chamada h1 {
+  color: white;
+  text-shadow: 4px 6px 10px #000;
+}
+
+header div#chamada h4 {
+  font-size: 250%;
+  text-shadow: 4px 6px 10px #000;
+  text-shadow: 4px 6px 10px #000;
+
+  margin-bottom: 55px;
+}
+
+header div#chamada a {
+  font-size:110%;
+  color: white;
+  text-decoration: none;
+
+  padding: 20px 80px;
+  border-radius: 50px;
+
+  background: linear-gradient(
+    rgba(7,140,49,55)
+    0%,
+    rgba(6, 89, 2, 35) 50%,
+    rgba(6, 89, 2, 35) 100%
+  );
+}
+
+
+/* --------------- */
+/* DOMINGO PERFEITO */
+/* ------------------- */
+
+div.pontos-chaves h4{
+  color: #404040;
+}
+
+div.pontos-chaves h4:after{
+  display: block;
+  background-color: #078c31;
+  height: 5px;
+  width: 30%;
+  margin: 20px auto 10px;
+  content: " ";
+}
