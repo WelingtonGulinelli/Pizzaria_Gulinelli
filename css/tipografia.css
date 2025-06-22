@@ -126,3 +126,27 @@ div.pontos-chaves h4:after{
   margin: 20px auto 10px;
   content: " ";
 }
+
+
+/* --------------- */
+/* Pizza */
+/* ------------------- */
+
+section#pizza p.destaque {
+  color: white;
+
+  width: 60%;
+}
+
+section#pizza ul li{
+  color: white;
+  list-style: none;
+  line-height: 1.8;
+  font-size: 90%;
+}
+
+
+
+/* --------------- */
+/* Depoimentos */
+/* ------------------- */
