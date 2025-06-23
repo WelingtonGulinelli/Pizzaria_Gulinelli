@@ -150,3 +150,8 @@ section#pizza ul li{
 /* --------------- */
 /* Depoimentos */
 /* ------------------- */
+
+section#testemunha p.destaque {
+  width: 40%;
+  background-color: rgba(255,2255,255,0.7);
+}
